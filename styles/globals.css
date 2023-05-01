@@ -41,12 +41,12 @@ body {}
 
 }
 
-.hover-underline-animation:hover:after {
+/* .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
   transform: translateX(-50%);
 
-}
+} */
 
 /* Fixed Underline */
 .fixed-underline-animation {
@@ -73,12 +73,12 @@ body {}
 
 }
 
-.fixed-underline-animation:hover:after {
+/* .fixed-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
   transform: translateX(-50%);
 
-}
+} */
 
 /* Swiper */
 
@@ -103,4 +103,91 @@ body {}
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Arrow oscillate */
+.arrow-button {
+  position: relative;
+}
+
+.arrow-icon {
+  animation-name: arrow-oscillate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  right: -25px;
+}
+
+@keyframes arrow-oscillate {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animation-delay-1s {
+  animation-delay: 1s;
+}
+
+/* Bullet CSS */
+div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  padding: 8px 17px;
+  background-color: #F0F0F0;
+  border-radius: 25px;
+  width: fit-content;
+  bottom: 70px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  color: black;
+  background-color: black;
+  width: 16px;
+  height: 16px;
+}
+
+@media (min-width: 1024px) {
+  div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: flex;
+  }
+}
+
+
+.swiper-button-prev{
+  display: none !important;
+}
+
+.swiper-button-next{
+  display: block;
+  color: white !important;
+  background-color: #737373;
+  padding: 5px;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 9999px;
+}
+
+.swiper-button-next:after {
+  font-size: 11px !important;
+  font-weight: 900;
+}
+
+@media (min-width: 1024px) {
+  .swiper-button-next{
+    display: none !important;
+  }
 }

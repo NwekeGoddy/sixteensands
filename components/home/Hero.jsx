@@ -1,8 +1,12 @@
 import React, { useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Hero1 from "../../images/Hero1.png";
 import Hero2 from "../../images/Hero2.png";
 import Hero3 from "../../images/Hero3.png";
+import Vector from "../../images/Vector.png";
+import EachHero from "./EachHero";
+import NextPage from "../NextPage";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,44 +15,65 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/effect-fade";
 
 // import required modules
-import { Keyboard, Pagination, Navigation } from "swiper";
+import { EffectFade, Keyboard, Pagination, Navigation, Autoplay } from "swiper";
 
 function Hero() {
   return (
-    <section className="pt-[106px]">
-      <div className="border-t-2 border-[#D3D3D3]">
-        <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={30}
-            keyboard={{
-              enabled: true,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            // navigation={true}
-            modules={[Keyboard, Pagination, Navigation]}
-            className="mySwiper"
-            autoplay={{ delay: 1000 }}
+    <section className="pt-[106px] pb-10 font-raleway">
+      <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
+        <Swiper
+          slidesPerView={1}
+          effect={"fade"}
+          spaceBetween={30}
+          keyboard={{
+            enabled: true,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[EffectFade, Keyboard, Pagination, Navigation, Autoplay]}
+          className="mySwiper"
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+        >
+          <SwiperSlide>
+            <EachHero
+              title={"Precision agriculture made easy with Sixteen Sands"}
+              brief={
+                "Our technology provides you with precise and up-to-date information on soil and plant health, giving you an edge indecision-making."
+              }
+              img={Hero3}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <EachHero
+              title={"Experience the power of data-driven agriculture"}
+              brief={
+                "With our data insights, you can optimize your crop management and reduce waste, leading to increased efficiency and profitability."
+              }
+              img={Hero2}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <EachHero
+              title={"Maximize your crop yields with Sensor technology"}
+              brief={
+                "Get the most out of your land with our soil and plant health insights and Revolutionise your farming practices with our cutting-edge technology"
+              }
+              img={Hero1}
+            />
+          </SwiperSlide>
+        </Swiper>
 
-          >
-            <SwiperSlide>
-              <div className="flex flex-row items-center justify-between gap-10">
-                <div>
-                  <h3>Hi there</h3>
-                </div>
-                <div>
-                  <Image src={Hero1} alt="Hero 1" />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-          </Swiper>
-        </div>
+        <NextPage title={"About Us"} toLink={"about"} />
       </div>
     </section>
   );
