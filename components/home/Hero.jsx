@@ -28,6 +28,7 @@ function Hero() {
           slidesPerView={1}
           effect={"fade"}
           spaceBetween={30}
+          loop={true}
           keyboard={{
             enabled: true,
           }}
