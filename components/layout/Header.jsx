@@ -140,18 +140,21 @@ function Header(props) {
               </div>
 
               <div className="w-full flex flex-row justify-between items-center">
-                <Image
-                  src={Logo2}
-                  alt="Sixteen Sands Logo"
-                  width={25}
-                  height={27}
-                  className="block lg:hidden"
-                />
+                <Link href="/">
+                  <Image
+                    src={Logo2}
+                    alt="Sixteen Sands Logo"
+                    width={25}
+                    height={27}
+                    className="block lg:hidden"
+                  />
+                </Link>
                 <div className="flex flex-row gap-3 sm:gap-5 items-center lg:hidden">
-                  <button className="px-5 py-2 whitespace-nowrap  sm:px-4 sm:py-2 bg-black hover:bg-black/80 text-white text-sm font-normal border border-[#CCCFE6] rounded-[3px]">
-                    Join WaitList
-                  </button>
-
+                  <Link href="/waitlist">
+                    <button className="px-5 py-2 whitespace-nowrap  sm:px-4 sm:py-2 bg-black hover:bg-black/80 text-white text-sm font-normal border border-[#CCCFE6] rounded-[3px]">
+                      Join WaitList
+                    </button>
+                  </Link>
                   <div
                     type="button"
                     onClick={handleIsOpen}
