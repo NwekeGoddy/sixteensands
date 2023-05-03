@@ -41,12 +41,12 @@ body {}
 
 }
 
-/* .hover-underline-animation:hover:after {
+.hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
   transform: translateX(-50%);
 
-} */
+}
 
 /* Fixed Underline */
 .fixed-underline-animation {
@@ -73,12 +73,12 @@ body {}
 
 }
 
-/* .fixed-underline-animation:hover:after {
+.fixed-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
   transform: translateX(-50%);
 
-} */
+}
 
 /* Swiper */
 
