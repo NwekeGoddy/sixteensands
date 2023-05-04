@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function EachHero({ title, brief, img }) {
   return (
@@ -12,10 +13,12 @@ function EachHero({ title, brief, img }) {
           {brief}
         </p>
 
-        <div className="font-bold text-black text-base lg:text-xl flex flex-row gap-2 items-center arrow-button">
-          <p>Get Started </p>
-          <p className="arrow-icon animate-arrow-oscillate">→</p>
-        </div>
+        <Link href="/waitlist">
+          <div className="font-bold text-black text-base lg:text-xl flex flex-row gap-2 items-center arrow-button">
+            <p>Get Started </p>
+            <p className="arrow-icon animate-arrow-oscillate">→</p>
+          </div>
+        </Link>
       </div>
       <div className="w-full md:w-8/12 lg:w-1/2">
         <Image src={img} alt="Hero 1" className="w-1/2" />

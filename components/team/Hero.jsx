@@ -13,8 +13,8 @@ function Hero() {
   return (
     <section className="pt-[106px] pb-10 font-raleway">
       <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
-        <div className="flex flex-col lg:flex-row gap-32 mt-16 lg:mt-32">
-          <MeetTeamIntro/>
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-16 lg:gap-32 mt-16 lg:mt-32">
+          <MeetTeamIntro />
           <div className="grid grid-cols-2 gap-x-20 gap-y-10">
             <Link href="/team/@abayomi-awobokun">
               <div className="">
@@ -25,7 +25,7 @@ function Hero() {
                   height={199}
                   className="max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-xl">Abayomi Awobokun</h5>
+                <h5 className="mt-5 font-bold text-sm md:text-xl">Abayomi Awobokun</h5>
                 <div className=" flex flex-row justify-between items-center w-full mt-2">
                   <p className="italic text-sm ">Director</p>
                   <Image
@@ -48,7 +48,7 @@ function Hero() {
                   height={199}
                   className="max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-xl">Daniel L Ayuba</h5>
+                <h5 className="mt-5 font-bold text-sm md:text-xl">Daniel L Ayuba</h5>
                 <div className=" flex flex-row justify-between items-center w-full mt-2">
                   <p className="italic text-sm ">Director</p>
                   <Image
@@ -71,7 +71,7 @@ function Hero() {
                   height={199}
                   className="max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-xl">Dr Oscar Mendez</h5>
+                <h5 className="mt-5 font-bold text-sm md:text-xl">Dr Oscar Mendez</h5>
                 <div className=" flex flex-row justify-between items-center w-full mt-2">
                   <p className="italic text-sm ">Director</p>
                   <Image
@@ -94,7 +94,7 @@ function Hero() {
                   height={199}
                   className="max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-xl">Belen Marti-Cardona</h5>
+                <h5 className="mt-5 font-bold text-sm md:text-xl">Belen Marti-Cardona</h5>
                 <div className=" flex flex-row justify-between items-center w-full mt-2">
                   <p className="italic text-sm ">Director</p>
                   <Image
@@ -107,6 +107,26 @@ function Hero() {
                 </div>
               </div>
             </Link>
+          </div>
+
+          <div className="block md:hidden">
+            <p className="font-medium text-sm lg:text-xl text-black text-left mb-4">
+              At Sixteen Sands, we&apos;re proud to have a team of experts who
+              are passionate about revolutionising the agriculture industry. Our
+              team includes engineers, data scientists, and agricultural
+              specialists who are committed to developing cutting-edge
+              technology that can help you optimize your crop yields, reduce
+              costs, and increase profitability.
+            </p>
+
+            <p className="font-medium text-sm lg:text-xl text-black text-left ">
+              At Sixteen Sands, we&apos;re committed to building a team
+              that&apos;s as innovative and forward-thinking as our technology.
+              We believe that our team&apos;s expertise and passion for
+              agriculture are what set us apart, and we&apos;re excited to
+              continue pushing the boundaries of what&apos;s possible in
+              agriculture.
+            </p>
           </div>
         </div>
       </div>
