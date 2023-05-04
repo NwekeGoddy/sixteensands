@@ -17,17 +17,17 @@ function Hero() {
           <MeetTeamIntro />
           <div className="grid grid-cols-2 gap-x-10 lg:gap-x-20 gap-y-5 lg:gap-y-10">
             <Link href="/team/@abayomi-awobokun">
-              <div className="">
+              <div className="w-36 md:w-[205px] max-w-[205px]">
                 <Image
                   src={Abayomi}
                   alt="Abayomi Awobokun Picture"
                   width={205}
                   height={199}
-                  className="w-48 max-w-[205px]"
+                  className="w-36 md:w-[205px] max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-sm md:text-xl">Abayomi Awobokun</h5>
-                <div className=" flex flex-row justify-between items-center w-full mt-2">
-                  <p className="italic text-sm ">Director</p>
+                <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">Abayomi Awobokun</h5>
+                <div className=" flex flex-row justify-between items-center w-full mt-1 lg:mt-2">
+                  <p className="italic text-[12px] md:text-sm ">Director</p>
                   <Image
                     src={Vector2}
                     alt="Short Arrow"
@@ -40,17 +40,17 @@ function Hero() {
             </Link>
 
             <Link href="/team/@daniel-ayuba">
-              <div className="">
+              <div className="w-36 md:w-[205px] max-w-[205px]">
                 <Image
                   src={Daniel}
                   alt="Daniel L Ayuba Picture"
                   width={205}
                   height={199}
-                  className="max-w-[205px]"
+                  className="w-36 md:w-[205px] max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-sm md:text-xl">Daniel L Ayuba</h5>
-                <div className=" flex flex-row justify-between items-center w-full mt-2">
-                  <p className="italic text-sm ">Director</p>
+                <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">Daniel L Ayuba</h5>
+                <div className=" flex flex-row justify-between items-center w-full mt-1 lg:mt-2">
+                  <p className="italic text-[12px] md:text-sm ">Director</p>
                   <Image
                     src={Vector2}
                     alt="Short Arrow"
@@ -63,17 +63,17 @@ function Hero() {
             </Link>
 
             <Link href="/team/@oscarmendez">
-              <div className="">
+              <div className="w-36 md:w-[205px] max-w-[205px]">
                 <Image
                   src={Oscar}
                   alt="Dr Oscar Mendez Picture"
                   width={205}
                   height={199}
-                  className="max-w-[205px]"
+                  className="w-36 md:w-[205px] max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-sm md:text-xl">Dr Oscar Mendez</h5>
-                <div className=" flex flex-row justify-between items-center w-full mt-2">
-                  <p className="italic text-sm ">Director</p>
+                <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">Dr Oscar Mendez</h5>
+                <div className=" flex flex-row justify-between items-center w-full mt-1 lg:mt-2">
+                  <p className="italic text-[12px] md:text-sm ">Director</p>
                   <Image
                     src={Vector2}
                     alt="Short Arrow"
@@ -86,17 +86,17 @@ function Hero() {
             </Link>
 
             <Link href="/team/@belen-marti-cardona">
-              <div className="">
+              <div className="w-36 md:w-[205px] max-w-[205px]">
                 <Image
                   src={Belen}
                   alt="Belen Marti-Cardona Picture"
                   width={205}
                   height={199}
-                  className="max-w-[205px]"
+                  className="w-36 md:w-[205px] max-w-[205px]"
                 />
-                <h5 className="mt-5 font-bold text-sm md:text-xl">Belen Marti-Cardona</h5>
-                <div className=" flex flex-row justify-between items-center w-full mt-2">
-                  <p className="italic text-sm ">Director</p>
+                <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">Belen Marti-Cardona</h5>
+                <div className=" flex flex-row justify-between items-center w-full mt-1 lg:mt-2">
+                  <p className="italic text-[12px] md:text-sm ">Director</p>
                   <Image
                     src={Vector2}
                     alt="Short Arrow"

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function EachHero({ title, brief, img, arrow }) {
+function EachHero({ title, brief, img, start }) {
   return (
     <div className="mt-14 flex flex-col-reverse lg:flex-row items-center justify-between  gap-10">
       <div className="lg:w-6/12 flex flex-col items-start justify-center">
@@ -14,9 +14,9 @@ function EachHero({ title, brief, img, arrow }) {
         </p>
 
         <Link href="/waitlist">
-          <div className="font-bold text-black text-base lg:text-xl flex flex-row gap-2 items-center arrow-button">
-            <p>Get Started </p>
-            <p className="arrow-icon animate-arrow-oscillate">{arrow}</p>
+          <div className="font-bold text-black text-base lg:text-xl flex flex-row gap-2 items-center ">
+            <p>{start}</p>
+            <p className="">→</p>
           </div>
         </Link>
       </div>

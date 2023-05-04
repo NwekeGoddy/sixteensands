@@ -1,10 +1,7 @@
 import React, { useRef, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
 import Hero1 from "../../images/Hero1.png";
 import Hero2 from "../../images/Hero2.png";
 import Hero3 from "../../images/Hero3.png";
-import Vector from "../../images/Vector.png";
 import EachHero from "./EachHero";
 import NextPage from "../NextPage";
 
@@ -50,7 +47,7 @@ function Hero() {
                 "Our technology provides you with precise and up-to-date information on soil and plant health, giving you an edge indecision-making."
               }
               img={Hero3}
-              arrow={"→"}
+              start={"Get started"}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -61,7 +58,7 @@ function Hero() {
                 "With our data insights, you can optimize your crop management and reduce waste, leading to increased efficiency and profitability."
               }
               img={Hero2}
-              arrow={"→"}
+              start={"Get started"}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -72,7 +69,7 @@ function Hero() {
                 "Get the most out of your land with our soil and plant health insights and Revolutionise your farming practices with our cutting-edge technology"
               }
               img={Hero1}
-              arrow={"→"}
+              start={"Get started"}
             />
           </SwiperSlide>
         </Swiper>
