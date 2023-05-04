@@ -13,9 +13,9 @@ function Hero() {
   return (
     <section className="pt-[106px] pb-10 font-raleway">
       <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
-        <div className="flex flex-col lg:flex-row gap-8 md:gap-16 lg:gap-32 mt-16 lg:mt-32">
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-16 lg:gap-32 mt-5 md:mt-10 lg:mt-20">
           <MeetTeamIntro />
-          <div className="grid grid-cols-2 gap-x-20 gap-y-10">
+          <div className="grid grid-cols-2 gap-x-10 lg:gap-x-20 gap-y-5 lg:gap-y-10">
             <Link href="/team/@abayomi-awobokun">
               <div className="">
                 <Image
@@ -23,7 +23,7 @@ function Hero() {
                   alt="Abayomi Awobokun Picture"
                   width={205}
                   height={199}
-                  className="max-w-[205px]"
+                  className="w-48 max-w-[205px]"
                 />
                 <h5 className="mt-5 font-bold text-sm md:text-xl">Abayomi Awobokun</h5>
                 <div className=" flex flex-row justify-between items-center w-full mt-2">
