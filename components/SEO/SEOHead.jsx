@@ -13,7 +13,7 @@ export default function Home({
   return (
     <Head>
       {/* Fundamental head elements important for SEO. */}
-      <title>{title} </title>
+      <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />

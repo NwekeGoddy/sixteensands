@@ -18,7 +18,7 @@ function EachMember() {
       <section className="pt-[106px] pb-10 font-raleway">
         <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
           <div className="flex flex-col lg:flex-row gap-16 mt-16 lg:mt-32">
-            <div >
+            <div className="hidden md:block">
               <MeetTeamIntro />
             </div>
             <div className="w-full md:w-8/12">

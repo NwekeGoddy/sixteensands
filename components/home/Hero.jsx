@@ -4,6 +4,7 @@ import Hero2 from "../../images/Hero2.png";
 import Hero3 from "../../images/Hero3.png";
 import EachHero from "./EachHero";
 import NextPage from "../NextPage";
+import Link from "next/link";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,7 +24,7 @@ function Hero() {
       <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
         <Swiper
           slidesPerView={1}
-          effect={"fade"}
+          effect={"cube"}
           spaceBetween={30}
           loop={true}
           keyboard={{
@@ -36,7 +37,7 @@ function Hero() {
           modules={[EffectFade, Keyboard, Pagination, Navigation, Autoplay]}
           className="mySwiper"
           autoplay={{
-            delay: 2500,
+            delay: 5000,
             disableOnInteraction: false,
           }}
         >
@@ -44,18 +45,19 @@ function Hero() {
             <EachHero
               title={"Precision agriculture made easy with Sixteen Sands"}
               brief={
-                "Our technology provides you with precise and up-to-date information on soil and plant health, giving you an edge indecision-making."
+                "Our technology provides you with precise and up-to-date information on soil and plant health, giving you an edge in your decision-making."
               }
               img={Hero3}
               start={"Get started"}
             />
+
           </SwiperSlide>
           <SwiperSlide>
             {" "}
             <EachHero
               title={"Experience the power of data-driven agriculture"}
               brief={
-                "With our data insights, you can optimize your crop management and reduce waste, leading to increased efficiency and profitability."
+                "With our  data insights, you can easily optimize your crop management and reduce waste, leading to an increased efficiency and profitability."
               }
               img={Hero2}
               start={"Get started"}
