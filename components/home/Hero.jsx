@@ -50,6 +50,7 @@ function Hero() {
                 "Our technology provides you with precise and up-to-date information on soil and plant health, giving you an edge indecision-making."
               }
               img={Hero3}
+              arrow={"→"}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -60,6 +61,7 @@ function Hero() {
                 "With our data insights, you can optimize your crop management and reduce waste, leading to increased efficiency and profitability."
               }
               img={Hero2}
+              arrow={"→"}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -70,6 +72,7 @@ function Hero() {
                 "Get the most out of your land with our soil and plant health insights and Revolutionise your farming practices with our cutting-edge technology"
               }
               img={Hero1}
+              arrow={"→"}
             />
           </SwiperSlide>
         </Swiper>
