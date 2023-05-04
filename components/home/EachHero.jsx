@@ -16,7 +16,7 @@ function EachHero({ title, brief, img }) {
         <Link href="/waitlist">
           <div className="font-bold text-black text-base lg:text-xl flex flex-row gap-2 items-center arrow-button">
             <p>Get Started </p>
-            <p className="arrow-icon animate-arrow-oscillate">→</p>
+            <p className="">→fix</p>
           </div>
         </Link>
       </div>
