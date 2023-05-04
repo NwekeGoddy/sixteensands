@@ -24,7 +24,7 @@ function Header(props) {
     <>
       <header className="bg-white border-b-2 border-[#D3D3D3] w-full h-[92px] md:h-[105px] fixed left-0 right-0 z-20 font-raleway">
         <section className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full h-[89px] md:h-[105px] ">
-          <div className="py-5 md:py-8 top-0">
+          <div className="py-6 md:py-8 top-0">
             <div className="hidden lg:flex flex-row justify-between items-center">
               <Link href="/">
                 {" "}
