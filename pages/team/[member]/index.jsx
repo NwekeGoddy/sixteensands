@@ -7,6 +7,7 @@ import MeetTeamIntro from "@/components/team/MeetTeamIntro";
 import { MemberData } from "../../../Data/memberdata";
 
 import Vector2 from "../../../images/Vector2.png";
+import { AiFillLinkedin } from "react-icons/ai";
 
 function EachMember() {
   const router = useRouter();
@@ -69,7 +70,17 @@ function EachMember() {
                             {memberdata.name}
                           </h5>
                           <div className=" flex flex-row justify-between items-center w-full mt-2">
-                            <p className="italic text-sm ">Director</p>
+                            <div className="flex flex-row items-center gap-2">
+                              <p className="italic text-[12px] md:text-sm">
+                                Director
+                              </p>
+                              <Link
+                                href={memberdata.linkedinLink}
+                                className="w-full"
+                              >
+                                <AiFillLinkedin />
+                              </Link>
+                            </div>
                           </div>
                         </div>
                       </div>
