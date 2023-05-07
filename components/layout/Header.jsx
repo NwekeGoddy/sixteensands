@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import Link from "next/link";
-import Logo from "../../images/icons/logo.png";
+import Logo from "../../images/icons/logo3.png";
 import Logo2 from "../../images/icons/sixteensandsfavicon.png";
 import Image from "next/image";
 

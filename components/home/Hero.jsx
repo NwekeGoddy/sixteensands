@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import Hero1 from "../../images/Hero1.png";
-import Hero2 from "../../images/Hero2.png";
-import Hero3 from "../../images/Hero3.png";
+import Hero1 from "../../images/Hero4.png";
+import Hero2 from "../../images/Hero5.png";
+import Hero3 from "../../images/Hero6.png";
 import EachHero from "./EachHero";
 import NextPage from "../NextPage";
 import Link from "next/link";
@@ -37,7 +37,7 @@ function Hero() {
           modules={[EffectFade, Keyboard, Pagination, Navigation, Autoplay]}
           className="mySwiper"
           autoplay={{
-            delay: 5000,
+            delay: 7000,
             disableOnInteraction: false,
           }}
         >
