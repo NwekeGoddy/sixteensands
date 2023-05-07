@@ -24,6 +24,7 @@ function Hero() {
                 width={205}
                 height={199}
                 className="w-36 md:w-[205px] max-w-[205px]"
+                placeholder="blur"
               />
               <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">
                 Abayomi Awobokun
@@ -46,6 +47,7 @@ function Hero() {
                     width={44}
                     height={8}
                     className="h-2"
+                    placeholder="blur"
                   />
                 </Link>
               </div>
@@ -58,6 +60,7 @@ function Hero() {
                 width={205}
                 height={199}
                 className="w-36 md:w-[205px] max-w-[205px]"
+                placeholder="blur"
               />
               <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">
                 Daniel L Ayuba
@@ -80,6 +83,7 @@ function Hero() {
                     width={44}
                     height={8}
                     className="h-2"
+                    placeholder="blur"
                   />
                 </Link>
               </div>
@@ -92,6 +96,7 @@ function Hero() {
                 width={205}
                 height={199}
                 className="w-36 md:w-[205px] max-w-[205px]"
+                placeholder="blur"
               />
               <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">
                 Dr Oscar Mendez
@@ -115,6 +120,7 @@ function Hero() {
                     width={44}
                     height={8}
                     className="h-2"
+                    placeholder="blur"
                   />
                 </Link>
               </div>
@@ -127,6 +133,7 @@ function Hero() {
                 width={205}
                 height={199}
                 className="w-36 md:w-[205px] max-w-[205px]"
+                placeholder="blur"
               />
               <h5 className="mt-3 lg:mt-5 font-bold text-sm md:text-xl">
                 Belen Marti-Cardona
@@ -149,6 +156,7 @@ function Hero() {
                     width={44}
                     height={8}
                     className="h-2"
+                    placeholder="blur"
                   />
                 </Link>
               </div>

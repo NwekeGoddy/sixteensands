@@ -6,7 +6,7 @@ import NextPage from "../NextPage";
 function Hero() {
   return (
     <section className="pt-[88px] lg:pt-[106px] pb-10 font-raleway">
-      <Image className="m-auto object-cover  h-[300px] lg:h-fit lg:w-full" src={AboutImage} alt="About Us Image" />
+      <Image className="m-auto object-cover  h-[300px] lg:h-fit lg:w-full" src={AboutImage} alt="About Us Image" placeholder="blur"/>
       <div className="max-w-screen-2xl m-auto px-6 sm:px-12 md:px-24 w-full">
         <div>
           <h3 className="w-full lg:w-6/12 font-bold text-xl  lg:text-[32px] text-black text-left mt-8 mb-4 lg:mt-16 lg:mb-8">

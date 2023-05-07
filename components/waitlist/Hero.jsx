@@ -13,12 +13,14 @@ function Hero() {
               src={WaitListImage}
               alt="Waitlist Image"
               className="hidden lg:block h-full w-full"
+              placeholder="blur"
             />
 
             <Image
               src={WaitListMobile}
               alt="Waitlist Image"
               className="block lg:hidden h-full w-full"
+              placeholder="blur"
             />
           </div>
           <div className="p-10 lg:p-0  w-full lg:w-1/2 mx-16 flex flex-col gap-8 lg:gap-12">

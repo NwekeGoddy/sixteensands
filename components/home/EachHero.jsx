@@ -21,7 +21,7 @@ function EachHero({ title, brief, img, start }) {
         </Link>
       </div>
       <div className="w-full md:w-8/12 lg:w-1/2">
-        <Image src={img} alt="Hero 1" className="w-1/2" />
+        <Image src={img} alt="Hero 1" className="w-1/2" placeholder="blur" priority />
       </div>
     </div>
   );
