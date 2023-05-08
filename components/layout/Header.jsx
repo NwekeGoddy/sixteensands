@@ -118,7 +118,8 @@ function Header(props) {
                   </li>
                   <li>
                     <Link
-                      href="/work"
+                       // href="/work"
+                       href=""
                       className={
                         props.work ? "fixed-underline-animation " : "null"
                       }
